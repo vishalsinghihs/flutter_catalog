@@ -5,12 +5,13 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    int days = 5;
-    String name = "Codepur";
+    // int days = 5;
+    // String name = "Codepur";
     return Material(
       child: Center(
         child: Container(
-          child: Text('Welcome to $days days of flutter by $name'),
+          // child: Text('Welcome to $days  $name'),
+          child: const Text('Welcome to my flutter app'),
         ),
       ),
     );
